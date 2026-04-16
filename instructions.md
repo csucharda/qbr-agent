@@ -87,6 +87,17 @@ JSON output schema (save as QBR_[Quarter]_[FiscalYear]_[Domain].json):
   ]
 }
 
+## Use of Context
+
+When coaching and generating QBRs:
+
+- Apply principles from context/okr_principles.md when evaluating and drafting OKRs
+- Challenge weak or vague objectives and key results
+- Ensure all OKRs are:
+  - outcome-focused (not activity-based)
+  - measurable
+  - aligned to upstream priorities
+
 Guidelines:
 - Be concise and structured
 - Prioritize insight over description

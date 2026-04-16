@@ -9,7 +9,7 @@
   },
   "executive_summary": {
     "priority_last_quarter": "reduce friction across the approval-to-funding journey, with deliberate focus on three areas: simplifying document submission, removing manual review bottlenecks to reduce cycle time, and expanding digital self-service to reduce assisted support demand. Effort was concentrated on the highest drop-off moments in the journey -- particularly document-related friction between approval and funding -- where customer confusion and redundant process steps were suppressing conversion.",
-    "outcomes": "Digital self-service adoption continued to grow across the approval-to-funding journey, with 65% of customers using digital channels to track status, submit documents, and resolve issues without assisted support (up from 58% at Q1 start). Funding conversion improved from 62% to 65%, document drop-off fell from 18% to 12%, and approval-to-funding cycle time was reduced from 19 to 18.5 days.",
+    "outcome": "Digital self-service adoption continued to grow across the approval-to-funding journey, with 65% of customers using digital channels to track status, submit documents, and resolve issues without assisted support (up from 58% at Q1 start). Funding conversion improved from 62% to 65%, document drop-off fell from 18% to 12%, and approval-to-funding cycle time was reduced from 19 to 18.5 days.",
     "learning_points": [
       "Clarity, not speed, drives customer behavior. Removing redundant document requests and providing clearer instructions had a disproportionately large impact on both conversion (+3 pts) and NPS (+1.5 pts). The primary mechanism was reduced customer uncertainty -- not process acceleration. This challenges the assumption that cycle time is the primary lever for funding conversion.",
       "Reducing friction in a small number of high-impact moments delivers outsized gains. Focused changes at the document submission stage drove improvements across funding rate, drop-off, and experience simultaneously -- confirming the approval-to-funding journey is won or lost at discrete friction points, not across the whole flow.",
@@ -28,17 +28,17 @@
       "objective": "Shift customers to active owners of their funding journey through friction elimination.",
       "key_results": [
         {
-          "text": "Increase funding conversion rate from 65% to 68%",
+          "kr": "Increase funding conversion rate from 65% to 68%",
           "status": "65% (Q1 baseline; up from 62% in Q0)",
           "support_needed": ""
         },
         {
-          "text": "Reduce document-related drop-off from 12% to less than 10%",
+          "kr": "Reduce document-related drop-off from 12% to less than 10%",
           "status": "12% (down from 18% in Q0)",
           "support_needed": "Alignment with Upstream Approval and Credit Crews to reduce redundant upstream document requirements"
         },
         {
-          "text": "Enable 70% of customers to complete document submission without assisted support",
+          "kr": "Enable 70% of customers to complete document submission without assisted support",
           "status": "Baseline being established in Q2",
           "support_needed": "Digital Channels for consistent action and guidance presentation"
         }
@@ -49,17 +49,17 @@
       "objective": "Build a faster, more automated operational backbone for the funding journey.",
       "key_results": [
         {
-          "text": "Reduce approval-to-funding cycle time from 18.5 to 18 days",
+          "kr": "Reduce approval-to-funding cycle time from 18.5 to 18 days",
           "status": "18.5 days (down from 19 days in Q0)",
           "support_needed": ""
         },
         {
-          "text": "Reduce manual review volume by an additional 20%",
+          "kr": "Reduce manual review volume by an additional 20%",
           "status": "-15% achieved in Q1; further reduction targeted",
           "support_needed": "Enterprise Credit to approve early-stage validation rules and tolerance thresholds for complex cases"
         },
         {
-          "text": "Increase straight-through processing for standard cases to 75%",
+          "kr": "Increase straight-through processing for standard cases to 75%",
           "status": "Baseline being established in Q2",
           "support_needed": "Credit and Technology teams to enable automated early validation"
         }
@@ -70,162 +70,143 @@
       "objective": "Make digital self-service the default across the approval-to-funding journey.",
       "key_results": [
         {
-          "text": "Increase self-service rate from 65% to 72%",
+          "kr": "Increase self-service rate from 65% to 72%",
           "status": "65% (up from 58% in Q0)",
           "support_needed": ""
         },
         {
-          "text": "Reduce inbound call volume by an additional 10% on top of Q1 reduction",
+          "kr": "Reduce inbound call volume by an additional 10% on top of Q1 reduction",
           "status": "-10% achieved in Q1; further reduction targeted",
           "support_needed": "Cross-domain alignment on consistent status messaging and next-step guidance"
         },
         {
-          "text": "Improve NPS by +2 pts over Q1 baseline",
+          "kr": "Improve NPS by +2 pts over Q1 baseline",
           "status": "+1.5 pts in Q1; trajectory positive",
           "support_needed": ""
         }
       ]
     }
   ],
-  "kpis": {
-    "client_outcomes": [
-      {
-        "metric": "Funding conversion rate",
-        "q1_actual": "65%",
-        "q2_target": "68%",
-        "fy26_target": "70%",
-        "upstream_kpi_impact": "PBB total client conversion"
-      },
-      {
-        "metric": "Document drop-off rate",
-        "q1_actual": "12%",
-        "q2_target": "<10%",
-        "fy26_target": "<8%",
-        "upstream_kpi_impact": ""
-      },
-      {
-        "metric": "Digital self-service rate",
-        "q1_actual": "65%",
-        "q2_target": "72%",
-        "fy26_target": "75%",
-        "upstream_kpi_impact": "PBB digital engagement rate"
-      }
-    ],
-    "operational_performance": [
-      {
-        "metric": "Approval-to-funding cycle time",
-        "q1_actual": "18.5 days",
-        "q2_target": "18.0 days",
-        "fy26_target": "17.5 days",
-        "upstream_kpi_impact": "PBB operational efficiency"
-      },
-      {
-        "metric": "Manual review volume (vs. baseline)",
-        "q1_actual": "-15%",
-        "q2_target": "-35% cumulative",
-        "fy26_target": "-40% cumulative",
-        "upstream_kpi_impact": ""
-      }
-    ],
-    "people": [
-      {
-        "metric": "To be confirmed",
-        "q1_actual": "",
-        "q2_target": "",
-        "fy26_target": "",
-        "upstream_kpi_impact": ""
-      }
-    ],
-    "financial_impact": [
-      {
-        "metric": "Inbound call volume reduction (vs. baseline)",
-        "q1_actual": "-10%",
-        "q2_target": "-20% cumulative",
-        "fy26_target": "-30% cumulative",
-        "upstream_kpi_impact": "Assisted service cost"
-      },
-      {
-        "metric": "NPS (cumulative improvement)",
-        "q1_actual": "+1.5 pts",
-        "q2_target": "+3 pts",
-        "fy26_target": "+5 pts",
-        "upstream_kpi_impact": "PBB NPS"
-      },
-      {
-        "metric": "Additional financial KPI to be confirmed",
-        "q1_actual": "",
-        "q2_target": "",
-        "fy26_target": "",
-        "upstream_kpi_impact": ""
-      }
-    ]
-  },
+  "kpis": [
+    {
+      "category": "Client outcomes",
+      "name": "Funding conversion rate",
+      "q_current": "65%",
+      "q_next_target": "68%",
+      "fy_target": "70%",
+      "actuals_to_date": "65%",
+      "year_end": "70%",
+      "upstream_kpi_impact": "PBB Total client growth"
+    },
+    {
+      "category": "Client Outcomes",
+      "name": "Document drop-off rate",
+      "q_current": "12%",
+      "q_next_target": "<10%",
+      "fy_target": "<8%",
+      "actuals_to_date": "",
+      "year_end": "",
+      "upstream_kpi_impact": ""
+    },
+    {
+      "category": "Client Outcomes",
+      "name": "Digital self-service rate",
+      "q_current": "65%",
+      "q_next_target": "72%",
+      "fy_target": "75%",
+      "actuals_to_date": "",
+      "year_end": "",
+      "upstream_kpi_impact": "PBB digital engagement rate"
+    },
+    {
+      "category": "Operational Performance",
+      "name": "Approval-to-funding cycle time",
+      "q_current": "18.5 days",
+      "q_next_target": "18.0 days",
+      "fy_target": "17.5 days",
+      "actuals_to_date": "",
+      "year_end": "",
+      "upstream_kpi_impact": "PBB operational efficiency"
+    },
+    {
+      "category": "Operational Performance",
+      "name": "Manual review volume (vs. baseline)",
+      "q_current": "-15%",
+      "q_next_target": "-35% cumulative",
+      "fy_target": "-40% cumulative",
+      "actuals_to_date": "",
+      "year_end": "",
+      "upstream_kpi_impact": ""
+    },
+    {
+      "category": "People",
+      "name": "To be confirmed",
+      "q_current": "",
+      "q_next_target": "",
+      "fy_target": "",
+      "actuals_to_date": "",
+      "year_end": "",
+      "upstream_kpi_impact": ""
+    },
+    {
+      "category": "Financial Impact",
+      "name": "Inbound call volume reduction (vs. baseline)",
+      "q_current": "-10%",
+      "q_next_target": "-20% cumulative",
+      "fy_target": "-30% cumulative",
+      "actuals_to_date": "",
+      "year_end": "",
+      "upstream_kpi_impact": "Assisted service cost"
+    },
+    {
+      "category": "Financial Impact",
+      "name": "NPS (cumulative improvement)",
+      "q_current": "+1.5 pts",
+      "q_next_target": "+3 pts",
+      "fy_target": "+5 pts",
+      "actuals_to_date": "",
+      "year_end": "",
+      "upstream_kpi_impact": "PBB NPS"
+    },
+    {
+      "category": "Financial Impact",
+      "name": "Additional financial KPI to be confirmed",
+      "q_current": "",
+      "q_next_target": "",
+      "fy_target": "",
+      "actuals_to_date": "",
+      "year_end": "",
+      "upstream_kpi_impact": ""
+    }
+  ],
   "dependencies": [
     {
-      "tracking_number": "N/A",
-      "constraint": "Early validation and document condition surfacing for the approval-to-funding journey",
-      "required_action": "Upstream Approval and Credit Crews to expose funding-critical conditions earlier in the journey, reducing downstream document requests",
-      "decision_by": "End of Q2 (to enable early validation rollout and prevent continued drop-off in complex cases)"
-    },
-    {
-      "tracking_number": "N/A",
-      "constraint": "Automation capability for complex and edge-case manual review scenarios",
-      "required_action": "Credit and Technology to assess and prioritise automation tooling for non-standard cases; current scope covers standard flows only",
-      "decision_by": "Q2 (to avoid manual review becoming a binding constraint on cycle time reduction)"
-    },
-    {
-      "tracking_number": "N/A",
-      "constraint": "Fragmented end-to-end ownership across approval, credit, and funding teams",
-      "required_action": "Cross-domain leadership to clarify accountability boundaries and establish a single coordination point for end-to-end journey decisions",
-      "decision_by": "Q2 planning cycle (required to unblock initiatives with multi-crew dependencies)"
+      "tracking_id": "Jira: 12345",
+      "constraint": "Early LTV and document validation services for approval-to-funding journey",
+      "required_action": "Enterprise Credit to approve early-stage validation rules and tolerance thresholds",
+      "decision_needed_by": "September"
     }
   ],
   "risks": [
     {
-      "blocker": "\"Funding-ready\" lacks a consistent, shared definition across teams and channels, leading to inconsistent customer guidance, cautious decision-making, and duplicated indicators that create confusion rather than clarity. If unresolved, this will limit the impact of self-service improvements and create quality risk as we scale.",
-      "asks": [
-        "Endorse a single, authoritative definition of \"funding-ready\" as the primary decision point across all channels and teams.",
-        "Support consistent application of this definition, including retiring familiar but duplicative indicators where they conflict."
-      ]
+      "risk": "\"Funding-ready\" lacks a consistent, shared definition across teams and channels, leading to inconsistent customer guidance, cautious decision-making, and duplicated indicators that create confusion rather than clarity. If unresolved, this will limit the impact of self-service improvements and create quality risk as we scale.",
+      "ask": "Endorse a single, authoritative definition of \"funding-ready\" as the primary decision point across all channels and teams. Support consistent application of this definition, including retiring familiar but duplicative indicators where they conflict."
     },
     {
-      "blocker": "Improvement gains risk plateauing if edge cases are not addressed as a deliberate priority. Q1 wins were concentrated in standard journeys. Edge cases -- which carry higher manual effort, longer cycle time, and higher drop-off -- are not yet within scope of existing initiatives and will become the binding constraint on further conversion and NPS improvement.",
-      "asks": [
-        "Align on prioritising end-to-end journey optimisation over siloed, within-team efficiency gains.",
-        "Direct relevant domains (Credit, Approval, Digital) to treat edge-case resolution as a shared, cross-domain objective rather than a secondary backlog item."
-      ]
+      "risk": "Improvement gains risk plateauing if edge cases are not addressed as a deliberate priority. Q1 wins were concentrated in standard journeys. Edge cases -- which carry higher manual effort, longer cycle time, and higher drop-off -- are not yet within scope of existing initiatives and will become the binding constraint on further conversion and NPS improvement.",
+      "ask": "Align on prioritising end-to-end journey optimisation over siloed, within-team efficiency gains. Direct relevant domains (Credit, Approval, Digital) to treat edge-case resolution as a shared, cross-domain objective rather than a secondary backlog item."
     }
   ],
   "initiatives": [
     {
-      "id": "1",
-      "crews": "Lending Ops",
-      "initiative": "Document Simplification Expansion -- extend simplified document submission and clearer guidance to complex customer scenarios beyond the standard approval-to-funding flow",
-      "outcomes": "Reduced drop-off in complex cases; improved conversion among previously high-friction customer segments; fewer assisted contacts for document queries",
-      "relevant_okrs": "O1: KR1 (conversion to 68%), KR2 (drop-off <10%), KR3 (70% unassisted submission)",
+      "initiative_id": "1",
+      "crew": "Lending Ops",
+      "initiative": "Document Simplification Expansion",
+      "outcome": "Reduced drop-off and improved conversion",
+      "relevant_okrs": "O1: Improve funding conversion through friction reduction",
       "confidence": "High",
-      "risks_dependencies": "Dependency on Upstream Approval and Credit to reduce redundant upstream conditions; requires Digital Channels for consistent experience delivery",
-      "jira_id": "TBC"
-    },
-    {
-      "id": "2",
-      "crews": "Credit + Ops",
-      "initiative": "Early Validation and Automation -- expand pre-funding validation and introduce straight-through processing for standard cases to reduce manual review volume and cycle time",
-      "outcomes": "Cycle time reduced to 18 days; manual review volume reduced by additional 20%; straight-through processing at 75% for standard cases",
-      "relevant_okrs": "O2: KR1 (cycle time), KR2 (manual review), KR3 (straight-through processing)",
-      "confidence": "Medium",
-      "risks_dependencies": "Requires Enterprise Credit to approve validation rules and tolerances for early-stage processing; complexity of edge cases may limit automation scope",
-      "jira_id": "TBC"
-    },
-    {
-      "id": "3",
-      "crews": "Digital + Ops",
-      "initiative": "Self-Service Expansion for Complex Cases -- extend proactive status tracking, next-step guidance, and self-resolution capability to non-standard journeys currently defaulting to assisted support",
-      "outcomes": "Increased self-service rate to 72%; additional 10% reduction in call volume; NPS improvement of +2 pts",
-      "relevant_okrs": "O3: KR1 (self-service rate), KR2 (call volume), KR3 (NPS)",
-      "confidence": "Medium",
-      "risks_dependencies": "Cross-domain alignment required on consistent messaging and journey design for edge cases; Digital platform dependencies to be confirmed",
-      "jira_id": "TBC"
+      "key_risks_dependencies": "Dependency on upstream Approval and Credit",
+      "jira_planview_id": "TBC"
     }
   ]
 }

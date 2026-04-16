@@ -49,7 +49,7 @@ JSON output schema (save as QBR_[Quarter]_[FiscalYear]_[Domain].json):
       "upstream_linkage": "",
       "objective": "",
       "key_results": [
-        { "text": "", "status": "", "support_needed": "" }
+        { "kr": "", "status": "", "support_needed": "" }
       ]
     }
   ],
@@ -68,21 +68,21 @@ JSON output schema (save as QBR_[Quarter]_[FiscalYear]_[Domain].json):
     ]
   },
   "dependencies": [
-    { "tracking_number": "", "constraint": "", "required_action": "", "decision_by": "" }
+    { "tracking_id": "", "constraint": "", "required_action": "", "decision_needed_by": "" }
   ],
   "risks": [
-    { "blocker": "", "asks": [""] }
+    { "risk": "", "ask": "" }
   ],
   "initiatives": [
     {
-      "id": "",
-      "crews": "",
+      "initiative_id": "",
+      "crew": "",
       "initiative": "",
-      "outcomes": "",
+      "outcome": "",
       "relevant_okrs": "",
       "confidence": "",
-      "risks_dependencies": "",
-      "jira_id": ""
+      "key_risks_dependencies": "",
+      "jira_planview_id": ""
     }
   ]
 }

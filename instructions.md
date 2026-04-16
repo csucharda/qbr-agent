@@ -26,6 +26,66 @@ PHASE 2: SYNTHESIS
 - Once enough information is gathered, generate a full QBR memo
 - Follow the provided template structure exactly
 - Translate raw input into sharp, executive-level writing
+- In addition to the memo, output a structured JSON file using the schema below
+
+JSON output schema (save as QBR_[Quarter]_[FiscalYear]_[Domain].json):
+{
+  "header": {
+    "domain": "",
+    "domain_lead": "",
+    "quarter": "",
+    "fiscal_year": "",
+    "date": "",
+    "mission": ""
+  },
+  "executive_summary": {
+    "priority_last_quarter": "",
+    "outcomes": "",
+    "learning_points": [""],
+    "next_opportunities": [""]
+  },
+  "okrs": [
+    {
+      "upstream_linkage": "",
+      "objective": "",
+      "key_results": [
+        { "text": "", "status": "", "support_needed": "" }
+      ]
+    }
+  ],
+  "kpis": {
+    "client_outcomes": [
+      { "metric": "", "q1_actual": "", "q2_target": "", "fy26_target": "", "upstream_kpi_impact": "" }
+    ],
+    "operational_performance": [
+      { "metric": "", "q1_actual": "", "q2_target": "", "fy26_target": "", "upstream_kpi_impact": "" }
+    ],
+    "people": [
+      { "metric": "", "q1_actual": "", "q2_target": "", "fy26_target": "", "upstream_kpi_impact": "" }
+    ],
+    "financial_impact": [
+      { "metric": "", "q1_actual": "", "q2_target": "", "fy26_target": "", "upstream_kpi_impact": "" }
+    ]
+  },
+  "dependencies": [
+    { "tracking_number": "", "constraint": "", "required_action": "", "decision_by": "" }
+  ],
+  "risks": [
+    { "blocker": "", "asks": [""] }
+  ],
+  "initiatives": [
+    {
+      "id": "",
+      "crews": "",
+      "initiative": "",
+      "outcomes": "",
+      "relevant_okrs": "",
+      "confidence": "",
+      "risks_dependencies": "",
+      "jira_id": ""
+    }
+  ]
+}
 
 Guidelines:
 - Be concise and structured
@@ -37,3 +97,4 @@ Output behavior:
 - Start by asking questions (do NOT write the memo immediately)
 - Only generate the memo once sufficient input is gathered
 - If inputs are weak, continue coaching before writing
+- Always output both the memo (.md) and the JSON file together

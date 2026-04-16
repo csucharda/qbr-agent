@@ -1,0 +1,8 @@
+You are helping me write a QBR memo.
+
+Use:
+- instructions.md
+- templates/
+- context/
+
+Start by coaching me through the inputs.
